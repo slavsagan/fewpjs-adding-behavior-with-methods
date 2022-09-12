@@ -12,6 +12,7 @@ describe("cat", () => {
     expect(cat.speak()).to.eq('Sasha says meow!')
   })
 })
+
 describe("dog", () => {
   beforeEach(() => {
     dog = new Dog("Rufio", "male")
@@ -24,6 +25,7 @@ describe("dog", () => {
     expect(dog.speak()).to.eq('Rufio says woof!')
   })
 })
+
 describe("bird", () => {
   beforeEach(() => {
     bird = new Bird("Pablo", "male")
